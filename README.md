@@ -31,6 +31,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Launches the app to load components in storybook server
 Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
+![Screen Shot 2021-07-10 at 6 05 45 PM](https://user-images.githubusercontent.com/23625686/125177403-74c93c80-e1a9-11eb-836b-15438282750e.png)
+
+
 See the section about [storybook](https://storybook.js.org/) for more information.
 
 
