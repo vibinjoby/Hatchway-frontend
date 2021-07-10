@@ -42,8 +42,8 @@ export const studentsSlice = createSlice({
       else {
         state.filteredStudentData = state.studentData.filter(
           student =>
-            student.firstName.toLowerCase().includes(data) ||
-            student.lastName.toLowerCase().includes(data),
+            student.firstName.toLowerCase().includes(data.toLowerCase()) ||
+            student.lastName.toLowerCase().includes(data.toLowerCase()),
         );
       }
     },

@@ -42,7 +42,7 @@ const Home: FC = () => {
 
   useEffect(() => {
     dispatch(loadStudentsAction());
-  }, []);
+  }, [dispatch]);
 
   return (
     <Container>

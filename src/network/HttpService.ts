@@ -24,10 +24,12 @@ const setHeader = (token: string) => {
   axios.defaults.headers.common['authorization'] = token;
 };
 
-export default {
+const HTTP_SERVICE = {
   setHeader,
   get: axios.get,
   post: axios.post,
   put: axios.put,
   delete: axios.delete,
 };
+
+export default HTTP_SERVICE;
