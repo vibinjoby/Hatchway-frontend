@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a message 1`] = `
+<div
+  class="sc-fujyAs hipAGk"
+>
+  <div
+    class="sc-pNWdM kOgDLe"
+  >
+    <div
+      class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-1 name-search"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input"
+            id="name-input"
+            placeholder="Search by name"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div
+        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-1 tag-search"
+      >
+        <div
+          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiInput-input"
+            id="tag-input"
+            placeholder="Search by tag"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <nav
+        class="MuiList-root card-list MuiList-padding"
+      />
+    </div>
+  </div>
+</div>
+`;

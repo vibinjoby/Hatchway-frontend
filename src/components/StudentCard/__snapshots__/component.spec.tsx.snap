@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a message 1`] = `
+<section
+  class="sc-dlnjwi jNsZIk"
+>
+  <img
+    alt="Student-pic"
+    class="sc-hKFxyN faIHOp"
+    src="https://storage.googleapis.com/hatchways-app.appspot.com/assessments/data/frontend/images/voluptasdictablanditiis.jpg"
+  />
+  <div
+    class="sc-eCApnc klaond"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4"
+    >
+      <b>
+        INGABERG
+         
+        ORTON
+      </b>
+    </h4>
+    <div
+      class="sc-jSFjdj fhvhJV"
+    >
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Email: 
+        iorton0@imdb.com
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Company: 
+        Yadel
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Skill: 
+        Oracle
+      </p>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        Average: 
+        88.875
+        %
+      </p>
+      <div
+        class="sc-gKAaRy iYHbGS"
+      />
+    </div>
+  </div>
+  <span
+    class="MuiTypography-root expand-btn MuiTypography-button"
+  >
+    +
+  </span>
+</section>
+`;
