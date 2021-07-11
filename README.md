@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with Hatchway-Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Visit [https://hatchway-frontend.netlify.app/](https://hatchway-frontend.netlify.app/) to see the site in action
+
+![Screen Shot 2021-07-10 at 5 59 53 PM](https://user-images.githubusercontent.com/23625686/125177297-a2fa4c80-e1a8-11eb-875a-7b5eeb46695f.png)
+
+
+This project was bootstrapped with [Create React App built with typescript template](https://github.com/facebook/create-react-app).
+
+### run `npm install` before running the application
 
 ## Available Scripts
 
@@ -19,28 +26,15 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### `npm run storybook`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Launches the app to load components in storybook server
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screen Shot 2021-07-10 at 6 05 45 PM](https://user-images.githubusercontent.com/23625686/125177403-74c93c80-e1a9-11eb-836b-15438282750e.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+See the section about [storybook](https://storybook.js.org/) for more information.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
