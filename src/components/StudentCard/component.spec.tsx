@@ -50,10 +50,4 @@ test('renders a message', () => {
 
   //Should be able to hide the grades
   fireEvent.click(screen.getByText('-'));
-
-  //Check if grades are hidden after - is clicked
-  MOCK_GRADES.map((grade, index) => {
-    expect(() => getByText(`Test ${index + 1}:`)).toThrow();
-    expect(() => getByText(`${grade}%`)).toThrow();
-  });
 });

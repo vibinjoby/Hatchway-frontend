@@ -2,7 +2,7 @@
 
 exports[`renders a message 1`] = `
 <section
-  class="sc-dlnjwi jNsZIk"
+  class="sc-dlnjwi hPKiOZ"
 >
   <img
     alt="Student-pic"
@@ -51,13 +51,169 @@ exports[`renders a message 1`] = `
       </p>
       <div
         class="sc-gKAaRy iYHbGS"
-      />
+      >
+        <div
+          class="MuiCollapse-root MuiCollapse-hidden"
+          style="min-height: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner"
+            >
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  1
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  78
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  2
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  100
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  3
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  92
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  4
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  86
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  5
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  89
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  6
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  88
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  7
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  91
+                  %
+                </p>
+              </div>
+              <div
+                class="sc-iCoGMd bGxwXD"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body1"
+                >
+                  Test 
+                  8
+                  :
+                </p>
+                <p
+                  class="MuiTypography-root grade MuiTypography-body1"
+                >
+                  87
+                  %
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <span
-    class="MuiTypography-root expand-btn MuiTypography-button"
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text expand-btn"
+    tabindex="0"
+    type="button"
   >
-    +
-  </span>
+    <span
+      class="MuiButton-label"
+    >
+      +
+    </span>
+  </button>
 </section>
 `;
