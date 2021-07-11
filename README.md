@@ -2,7 +2,8 @@
 
 Visit [https://hatchway-frontend.netlify.app/](https://hatchway-frontend.netlify.app/) to see the site in action
 
-![Screen Shot 2021-07-10 at 5 59 53 PM](https://user-images.githubusercontent.com/23625686/125177297-a2fa4c80-e1a8-11eb-875a-7b5eeb46695f.png)
+![Screen Shot 2021-07-10 at 10 45 37 PM](https://user-images.githubusercontent.com/23625686/125181199-8d991880-e1d0-11eb-82e1-50b82c77a3f1.png)
+![Screen Shot 2021-07-10 at 10 46 42 PM](https://user-images.githubusercontent.com/23625686/125181219-b6211280-e1d0-11eb-91ac-70a251692f9a.png)
 
 
 This project was bootstrapped with [Create React App built with typescript template](https://github.com/facebook/create-react-app).
