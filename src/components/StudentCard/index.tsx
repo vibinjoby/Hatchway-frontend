@@ -2,9 +2,11 @@ import { FC, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 import Typography from '@material-ui/core/Typography';
+import { Collapse } from '@material-ui/core';
 
 import { addTag, StudentState } from '../../features/students/studentsSlice';
 import { CssTextField } from '../../pages/home';
+import { Button } from '@material-ui/core';
 
 const StudentCard: FC<StudentState> = ({
   city,
@@ -30,20 +32,16 @@ const StudentCard: FC<StudentState> = ({
     return sum / grades.length;
   };
 
-  const DropdownContainer = () => {
-    if (isSelected)
-      return (
-        <>
-          {grades.map((grade, index) => (
-            <GradeContainer key={index}>
-              <Typography>Test {index + 1}:</Typography>
-              <Typography className="grade">{grade}%</Typography>
-            </GradeContainer>
-          ))}
-        </>
-      );
-    return <></>;
-  };
+  const DropdownContainer = () => (
+    <>
+      {grades.map((grade, index) => (
+        <GradeContainer key={index}>
+          <Typography>Test {index + 1}:</Typography>
+          <Typography className="grade">{grade}%</Typography>
+        </GradeContainer>
+      ))}
+    </>
+  );
 
   const Tags = () => {
     return (
@@ -95,36 +93,40 @@ const StudentCard: FC<StudentState> = ({
           <Typography>Average: {calculateAverage()}%</Typography>
           {/** Dropdown with grades is shown only when clicked on + */}
           <DropdownWrapper>
-            <DropdownContainer />
+            <Collapse in={isSelected}>
+              <DropdownContainer />
+            </Collapse>
           </DropdownWrapper>
           {/** Show tags horizontally when the user has added tag for each student */}
           {isSelected ? Tags() : <></>}
         </StudentData>
       </Wrapper>
-      <Typography
-        variant="button"
-        onClick={() => setIsSelected(val => !val)}
-        className="expand-btn">
+      <Button
+        disableRipple
+        className="expand-btn"
+        onClick={() => setIsSelected(val => !val)}>
         {!isSelected ? '+' : '-'}
-      </Typography>
+      </Button>
     </Container>
   );
 };
 
 const Container = styled.section`
-  overflow: hidden;
   display: flex;
   width: 100%;
   flex-direction: row;
   align-items: flex-start;
   .expand-btn {
+    position: absolute;
     cursor: pointer;
-    margin: 10px 0;
     font-size: 50px;
-    border: 0;
+    font-weight: bold;
     color: grey;
     height: 0em;
     margin-left: auto;
+    margin-top: 10px;
+    right: 0;
+    background: transparent;
   }
   .expand-btn:hover {
     background-color: #fff;
