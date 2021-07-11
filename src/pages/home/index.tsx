@@ -1,4 +1,11 @@
-import { Card, Divider, List, ListItem, TextField } from '@material-ui/core';
+import {
+  Card,
+  Divider,
+  List,
+  ListItem,
+  TextField,
+  Container as RootContainer,
+} from '@material-ui/core';
 import { FC, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import styled from 'styled-components';
@@ -45,55 +52,57 @@ const Home: FC = () => {
   }, [dispatch]);
 
   return (
-    <Container>
-      <Wrapper>
-        <Card className="card">
-          <CssTextField
-            id="name-input"
-            placeholder="Search by name"
-            className="name-search"
-            onChange={e =>
-              dispatch({
-                type: searchByName.type,
-                payload: { data: e.target.value },
-              })
-            }
-          />
-          <CssTextField
-            id="tag-input"
-            placeholder="Search by tag"
-            className="tag-search"
-            onChange={e =>
-              dispatch({
-                type: searchByTag.type,
-                payload: { data: e.target.value },
-              })
-            }
-          />
-          <List component="nav" className="card-list">
-            {studentsData.map((student, index) => (
-              <div key={index}>
-                <ListItem>
-                  <StudentCard
-                    city={student.city}
-                    company={student.company}
-                    email={student.email}
-                    firstName={student.firstName}
-                    grades={student.grades}
-                    id={student.id}
-                    lastName={student.lastName}
-                    pic={student.pic}
-                    skill={student.skill}
-                    tags={student.tags}
-                  />
-                </ListItem>
-                {index !== studentsData.length - 1 ? <Divider /> : <></>}
-              </div>
-            ))}
-          </List>
-        </Card>
-      </Wrapper>
-    </Container>
+    <RootContainer>
+      <Container>
+        <Wrapper>
+          <Card className="card">
+            <CssTextField
+              id="name-input"
+              placeholder="Search by name"
+              className="name-search"
+              onChange={e =>
+                dispatch({
+                  type: searchByName.type,
+                  payload: { data: e.target.value },
+                })
+              }
+            />
+            <CssTextField
+              id="tag-input"
+              placeholder="Search by tag"
+              className="tag-search"
+              onChange={e =>
+                dispatch({
+                  type: searchByTag.type,
+                  payload: { data: e.target.value },
+                })
+              }
+            />
+            <List component="nav" className="card-list">
+              {studentsData.map((student, index) => (
+                <div key={index}>
+                  <ListItem>
+                    <StudentCard
+                      city={student.city}
+                      company={student.company}
+                      email={student.email}
+                      firstName={student.firstName}
+                      grades={student.grades}
+                      id={student.id}
+                      lastName={student.lastName}
+                      pic={student.pic}
+                      skill={student.skill}
+                      tags={student.tags}
+                    />
+                  </ListItem>
+                  {index !== studentsData.length - 1 ? <Divider /> : <></>}
+                </div>
+              ))}
+            </List>
+          </Card>
+        </Wrapper>
+      </Container>
+    </RootContainer>
   );
 };
 

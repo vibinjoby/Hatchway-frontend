@@ -2,49 +2,53 @@
 
 exports[`renders a message 1`] = `
 <div
-  class="sc-fujyAs hipAGk"
+  class="MuiContainer-root MuiContainer-maxWidthLg"
 >
   <div
-    class="sc-pNWdM kOgDLe"
+    class="sc-fujyAs hipAGk"
   >
     <div
-      class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
+      class="sc-pNWdM kOgDLe"
     >
       <div
-        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-1 name-search"
+        class="MuiPaper-root MuiCard-root card MuiPaper-elevation1 MuiPaper-rounded"
       >
         <div
-          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-1 name-search"
         >
-          <input
-            aria-invalid="false"
-            class="MuiInputBase-input MuiInput-input"
-            id="name-input"
-            placeholder="Search by name"
-            type="text"
-            value=""
-          />
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              id="name-input"
+              placeholder="Search by name"
+              type="text"
+              value=""
+            />
+          </div>
         </div>
-      </div>
-      <div
-        class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-1 tag-search"
-      >
         <div
-          class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          class="MuiFormControl-root MuiTextField-root WithStyles(ForwardRef(TextField))-root-1 tag-search"
         >
-          <input
-            aria-invalid="false"
-            class="MuiInputBase-input MuiInput-input"
-            id="tag-input"
-            placeholder="Search by tag"
-            type="text"
-            value=""
-          />
+          <div
+            class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input MuiInput-input"
+              id="tag-input"
+              placeholder="Search by tag"
+              type="text"
+              value=""
+            />
+          </div>
         </div>
+        <nav
+          class="MuiList-root card-list MuiList-padding"
+        />
       </div>
-      <nav
-        class="MuiList-root card-list MuiList-padding"
-      />
     </div>
   </div>
 </div>
